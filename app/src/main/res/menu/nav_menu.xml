@@ -3,11 +3,11 @@
     <item
         android:id="@+id/ic_courses"
         android:icon="@drawable/ic_baseline_library_books_24"
-        android:title="@string/Courses"/>
+        android:title="@string/courses"/>
 
     <item
         android:id="@+id/ic_professors"
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="@string/Professors"/>
+        android:title="@string/professors"/>
 
 </menu>
