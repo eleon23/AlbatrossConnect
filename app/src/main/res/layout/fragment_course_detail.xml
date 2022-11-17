@@ -1,14 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.CourseFlow.CourseDetailFragment">
+    android:background="#eeeeee"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/albatross_white"
+        app:tint="@color/blue" />
+
     <TextView
+        android:id="@+id/course_number"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:textColor="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:typeface="sans"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="CS 415" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/course_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="sans-serif-medium"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:typeface="sans"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:text="Computer Vision" />
+
+    <Button
+        android:id="@+id/student_reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/course_name"
+        app:layout_constraintEnd_toStartOf="@id/prerequisites"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Student Reviews"
+        />
+
+    <Button
+        android:id="@+id/prerequisites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Prerequisites"
+        app:layout_constraintTop_toBottomOf="@id/course_name"
+        app:layout_constraintStart_toEndOf="@id/student_reviews"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
