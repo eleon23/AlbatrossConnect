@@ -49,6 +49,17 @@
             app:drawableStartCompat="@drawable/ic_baseline_library_books_24" />
 
         <TextView
+            android:id="@+id/professor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/course_code"
+            android:layout_toEndOf="@+id/course_name"
+            android:layout_marginTop="10dp"
+            android:text="@string/professor_name"
+            android:layout_marginStart="10dp"
+            app:drawableStartCompat="@drawable/ic_baseline_library_books_24" />
+
+        <TextView
             android:id="@+id/course_crn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

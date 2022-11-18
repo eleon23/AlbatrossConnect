@@ -17,4 +17,11 @@
     <string name="course_name">Course Name</string>
     <string name="CRN">CRN: 43434</string>
     <string name="search">Search Here</string>
+    <string name="select_a_course_you_are_interested_in">Select a course you are interested in</string>
+    <string name="select_a_professor_you_want">Select a professor you want</string>
+    <string name="professor_name">Professor Name</string>
+    <string name="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, ultrices mauris. Maecenas vitae mattis tellus.</string>
+    <string name="professor_or_course">Professor/Course</string>
+    <string name="years_taken">Year Taken</string>
+    <string name="rating_review_page">3.0\nOK</string>
 </resources>
