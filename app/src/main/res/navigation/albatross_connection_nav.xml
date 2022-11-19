@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/albatross_connection_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.albatrossconnect.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseFragment"
+        android:name="com.example.albatrossconnect.fragments.CourseFlow.CourseFragment"
+        tools:layout="@layout/fragment_course"
+        android:label="CourseFragment" >
+        <action
+            android:id="@+id/action_courseFragment_to_courseDetailFragment"
+            app:destination="@id/courseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/professorFragment"
+        android:name="com.example.albatrossconnect.fragments.ProfessorFlow.ProfessorFragment"
+        tools:layout="@layout/fragment_professor"
+        android:label="ProfessorFragment" >
+        <action
+            android:id="@+id/action_professorFragment_to_professorDetailFragment"
+            app:destination="@id/professorDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/courseDetailFragment"
+        android:name="com.example.albatrossconnect.fragments.CourseFlow.CourseDetailFragment"
+        tools:layout="@layout/fragment_course_detail"
+        android:label="CourseDetailFragment" >
+        <action
+            android:id="@+id/action_courseDetailFragment_to_coursePrerequisiteFragment"
+            app:destination="@id/coursePrerequisiteFragment" />
+        <action
+            android:id="@+id/action_courseDetailFragment_to_courseReviewFragment"
+            app:destination="@id/courseReviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coursePrerequisiteFragment"
+        android:name="com.example.albatrossconnect.fragments.CourseFlow.CoursePrerequisiteFragment"
+        android:label="fragment_course_prerequisite"
+        tools:layout="@layout/fragment_course_prerequisite" />
+    <fragment
+        android:id="@+id/professorDetailFragment"
+        android:name="com.example.albatrossconnect.fragments.ProfessorFlow.ProfessorDetailFragment"
+        android:label="fragment_professor_detail"
+        tools:layout="@layout/fragment_professor_detail" >
+        <action
+            android:id="@+id/action_professorDetailFragment_to_professorReviewFragment"
+            app:destination="@id/professorReviewFragment" />
+        <action
+            android:id="@+id/action_professorDetailFragment_to_courseDetailFragment"
+            app:destination="@id/courseDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/professorReviewFragment"
+        android:name="com.example.albatrossconnect.fragments.ProfessorFlow.ProfessorReviewFragment"
+        android:label="fragment_professor_review"
+        tools:layout="@layout/fragment_professor_review" />
+    <fragment
+        android:id="@+id/courseReviewFragment"
+        android:name="com.example.albatrossconnect.fragments.CourseFlow.CourseReviewFragment"
+        android:label="fragment_course_review"
+        tools:layout="@layout/fragment_course_review" />
+</navigation>
