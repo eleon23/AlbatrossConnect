@@ -22,14 +22,18 @@ class HomeFragment : Fragment() {
         return view
     }
 
-    override fun onResume() {
-        super.onResume()
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         setUpOnClickListeners()
     }
 
     private fun setUpOnClickListeners(){
         binding.courseDescriptions.setOnClickListener {
             view?.findNavController()?.navigate(R.id.action_homeFragment_to_courseFragment)
+        }
+
+        binding.professorLookup.setOnClickListener {
+            view?.findNavController()?.navigate(R.id.action_homeFragment_to_professorFragment)
         }
     }
 }
