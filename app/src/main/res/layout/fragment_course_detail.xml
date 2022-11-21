@@ -30,7 +30,7 @@
         android:layout_margin="20dp"
         android:typeface="sans"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:text="CS 415" />
+        android:text="CS 415" />
 
     <TextView
         android:id="@+id/course_name"
@@ -45,7 +45,7 @@
         android:layout_margin="20dp"
         android:typeface="sans"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        tools:text="Computer Vision" />
+        android:text="Computer Vision" />
 
     <Button
         android:id="@+id/student_reviews"
@@ -82,7 +82,7 @@
         android:textSize="24sp"
         android:typeface="sans"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        tools:text="Course Description" />
+        android:text="Course Description" />
 
     <TextView
         android:id="@+id/description"
@@ -97,7 +97,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/course_details"
-        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
 
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        app:itemBackground="@color/blue"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/nav_menu"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

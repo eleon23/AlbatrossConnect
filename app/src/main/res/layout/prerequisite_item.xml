@@ -5,7 +5,7 @@
     android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/course_descriptions"
+        android:id="@+id/course_description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
@@ -79,14 +79,11 @@
                 android:text="CRN: 1234"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="#000000"
-                android:textSize="14sp"
+                android:layout_marginEnd="10dp"
+                android:textSize="18sp"
                 app:layout_constraintTop_toBottomOf="@id/professor_name"
                 app:layout_constraintEnd_toEndOf="parent"
                 />
-
-
-
-
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>

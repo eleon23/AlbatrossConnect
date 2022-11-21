@@ -12,3 +12,14 @@ data class Course(
     val rating: Int,
     val CRN: Int
 )
+
+data class CourseReviews(
+    val reviews: List<Review>
+)
+
+data class Review(
+    val rating: Int,
+    val semester: String,
+    val instructor: String,
+    val review: String
+)
