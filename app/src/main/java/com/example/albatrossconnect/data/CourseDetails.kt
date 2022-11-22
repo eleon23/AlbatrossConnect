@@ -23,3 +23,16 @@ data class Review(
     val instructor: String,
     val review: String
 )
+
+data class Professors(
+    val professors: List<Professor>
+)
+
+data class Professor(
+    val name: String,
+    val position: String,
+    val department: String,
+    val rating: Int,
+    val phone: Long,
+    val email: String
+)
