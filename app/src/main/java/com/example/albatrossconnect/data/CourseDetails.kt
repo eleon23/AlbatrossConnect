@@ -21,7 +21,8 @@ data class Review(
     val rating: Int,
     val semester: String,
     val instructor: String,
-    val review: String
+    val review: String,
+    val course: String? = null
 )
 
 data class Professors(
