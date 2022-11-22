@@ -8,14 +8,15 @@ import android.view.ViewGroup
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.databinding.FragmentCourseDetailBinding
 import com.example.albatrossconnect.databinding.FragmentProfessorBinding
+import com.example.albatrossconnect.databinding.FragmentProfessorDetailBinding
 
 class ProfessorDetailFragment : Fragment() {
-    private lateinit var binding: FragmentProfessorBinding
+    private lateinit var binding: FragmentProfessorDetailBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentProfessorBinding.inflate(inflater, container, false)
+        binding = FragmentProfessorDetailBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }

@@ -61,8 +61,8 @@
             android:id="@+id/action_professorDetailFragment_to_professorReviewFragment"
             app:destination="@id/professorReviewFragment" />
         <action
-            android:id="@+id/action_professorDetailFragment_to_courseDetailFragment"
-            app:destination="@id/courseDetailFragment" />
+            android:id="@+id/action_professorDetailFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
     </fragment>
     <fragment
         android:id="@+id/professorReviewFragment"

@@ -1,14 +1,239 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.ProfessorFlow.ProfessorDetailFragment">
+    android:background="#eeeeee">
 
-    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:src="@drawable/albatross_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/blue" />
+
+    <ImageView
+        android:id="@+id/professor_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintEnd_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/title" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:id="@+id/professor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Dr. Dale Reed"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:typeface="sans"
+        app:layout_constraintStart_toEndOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/title" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/professor_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Computer Vision"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#5D5D5D"
+        android:textSize="14sp"
+        android:typeface="sans"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/professor_name" />
+
+    <TextView
+        android:id="@+id/deparment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Deparment of Computer Science"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#5D5D5D"
+        android:textSize="12sp"
+        android:typeface="sans"
+        app:layout_constraintStart_toStartOf="@id/guideline3"
+        app:layout_constraintTop_toBottomOf="@id/professor_position" />
+
+    <Button
+        android:id="@+id/professor_reviews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Student Reviews"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline5"
+
+        />
+
+    <Button
+        android:id="@+id/courses"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Courses   "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/professor_reviews"
+        app:layout_constraintTop_toBottomOf="@id/guideline5" />
+
+
+    <TextView
+        android:id="@+id/contact_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Contact Information"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/professor_reviews" />
+
+    <ImageView
+        android:id="@+id/phone_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/contact_info"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/phone_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="312-333-0000"
+        app:layout_constraintStart_toEndOf="@id/phone_image"
+        app:layout_constraintTop_toBottomOf="@id/contact_info"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="15dp"
+        />
+
+    <ImageView
+        android:id="@+id/email_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone_image"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/email_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="someEmail@gmail.com"
+        app:layout_constraintStart_toEndOf="@id/email_image"
+        app:layout_constraintTop_toBottomOf="@id/phone_info"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/office_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/email_image"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/office_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Some Office "
+        app:layout_constraintStart_toEndOf="@id/office_image"
+        app:layout_constraintTop_toBottomOf="@id/email_info"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="15dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="About"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/office_info" />
+
+    <TextView
+        android:id="@+id/about_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/about" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        app:itemBackground="@color/blue"
+        app:itemIconTint="#fff"
+        app:itemTextColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/nav_menu" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="133dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="170dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
