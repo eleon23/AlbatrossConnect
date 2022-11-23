@@ -1,0 +1,401 @@
+Asudeh Abolfazl
+Assistant Professor
+Department of Computer Science
+(312) 996-4860
+asudeh@uic.edu
+
+Bell John
+Senior Lecturer
+Department of Computer Science
+(312) 413-9054
+jbell@uic.edu
+
+Bello Gonzalo
+Clinical Assistant Professor
+Department of Computer Science
+(312) 413-5360
+gabellol@uic.edu
+
+Bernstein Daniel J.
+Research Professor
+Department of Computer Science
+(312) 413-9322
+djb@math.uic.edu
+
+Burton Emanuelle
+Lecturer
+Department of Computer Science
+(312) 413-2448
+enburton@uic.edu
+
+Buy Ugo
+Associate Professor
+Department of Computer Science
+(312) 413-2296
+buy@uic.edu
+
+Caragea Cornelia
+Professor
+Department of Computer Science
+(312) 996-2807
+cornelia@uic.edu
+
+Chattopadhyay Debaleena
+Assistant Professor
+Department of Computer Science
+(312) 413-5183
+debchatt@uic.edu
+
+Cheng Lu
+Assistant Professor
+Department of Computer Science
+312-355-8075
+lucheng@uic.edu
+
+Clayville Kristel
+Lecturer
+Computer Science
+(312) 413-2284
+kclayvil@uic.edu
+
+Cranch Cody
+Lecturer
+Department of Computer Science
+(312) 355-1319
+ccranc2@uic.edu
+
+Cruz Isabel
+Distinguished Professor (In Memoriam)
+Department of Computer Science
+(312) 996-7566
+cs-info@uic.edu
+
+DasGupta Bhaskar
+Professor
+Department of Computer Science
+(312) 996-3422
+bdasgup@uic.edu
+
+DiEugenio Barbara
+Professor, Director of Graduate Studies
+Department of Computer Science
+(312) 996-0481
+bdieugen@uic.edu
+
+Diaz Diana
+Clinical Assistant Professor
+Department of Computer Science
+(312) 413-0365
+dmdh@uic.edu
+
+Eriksson Jakob
+Associate Professor
+Department of Computer Science
+(312) 355-1320
+jakob@uic.edu
+
+Gjomemo Rigel
+Research Assistant Professor
+Department of Computer Science
+(312) 355-3250
+rgjome1@uic.edu
+
+Gmytrasiewicz Piotr
+Associate Professor
+Department of Computer Science
+(312) 996-3236
+piotr@uic.edu
+
+Grechanik Mark
+Associate Professor
+Department of Computer Science
+(312) 413-8138
+drmark@uic.edu
+
+Hallenbeck Mark
+Lecturer
+Department of Computer Science
+(312) 996-3002
+mhalle5@uic.edu
+
+Hayes David
+Lecturer
+Department of Computer Science
+(312) 355-0950
+dhayes1@uic.edu
+
+Johnson Andrew
+Professor
+Department of Computer Science
+(312) 996-2795
+ajohnson@uic.edu
+
+Kanich Chris
+Associate Professor
+Department of Computer Science
+(312) 355-2434
+ckanich@uic.edu
+
+Kash Ian
+Associate Professor
+Department of Computer Science
+(312) 355-1309
+iankash@uic.edu
+
+Kerne Andruid
+Professor
+Computer Science
+(312) 355-2129
+andruid@uic.edu
+
+Kidane Ellen
+Lecturer
+Department of Computer Science
+(312) 355-1318
+ekidan2@uic.edu
+
+Koehler Adam
+Clinical Assistant Professor
+Department of Computer Science
+(312) 355-1310
+akoehler@uic.edu
+
+Kshemkalyani Ajay
+Professor
+Department of Computer Science
+(312) 996-2672
+ajay@uic.edu
+
+Lillis John
+Associate Professor
+Department of Computer Science
+(312) 996-5941
+lillis@uic.edu
+
+Liu Bing
+Distinguished Professor
+Department of Computer Science
+(312) 996-3082
+liub@uic.edu
+
+Lyons Leilah
+Research Associate Professor
+Department of Computer Science
+(312) 413-1888
+llyons@uic.edu
+
+Mansky William
+Assistant Professor
+Department of Computer Science
+(312) 996-3422
+mansky1@uic.edu
+
+Marai G. Elisabeta
+Professor
+Department of Computer Science
+(312) 996-3259
+gmarai@uic.edu
+
+McCarty Evan
+Lecturer
+Department of Computer Science
+(312) 355-1310
+emccarty@uic.edu
+
+Medya Sourav
+Assistant Professor
+Department of Computer Science
+(312) 355-8000
+medya@uic.edu
+
+Michaelis Joseph E
+Assistant Professor
+Department of Computer Science
+(312) 413-2442
+jmich@uic.edu
+
+Miranda Fabio
+Assistant Professor
+Department of Computer Science
+(312) 996-2946
+fabiom@uic.edu
+
+Nelson Peter
+Dean
+Department of Computer Science
+(312) 996-2465
+nelson@uic.edu
+
+Papka Michael E.
+Professor
+Department of Computer Science
+(312) 996-2647
+papka@uic.edu
+
+Parde Natalie
+Assistant Professor
+Department of Computer Science
+(312) 413-9478
+parde@uic.edu
+
+Pina Luis
+Assistant Professor
+Department of Computer Science
+(312) 996-3002
+luispina@uic.edu
+
+Polakis Jason
+Associate Professor
+Department of Computer Science
+(312) 355-5077
+polakis@uic.edu
+
+Ravi Sathya
+Assistant Professor
+Department of Computer Science
+(312) 996-8779
+sathya@uic.edu
+
+Reckinger Shanon
+Clinical Associate Professor
+Department of Computer Science
+(312) 996-2369
+shanon@uic.edu
+
+Reckinger Scott
+Clinical Assistant Professor
+Department of Computer Science
+(312) 996-0955
+scotreck@uic.edu
+
+Reed Dale
+Clinical Professor
+Department of Computer Science
+(312) 996-3476
+reed@uic.edu
+
+Renambot Luc
+Associate Research Professor
+Department of Computer Science
+(312) 355-9088
+renambot@uic.edu
+
+Riazi Sara
+Clinical Assistant Professor
+Department of Computer Science
+(312) 413-9267
+riazi@uic.edu
+
+Rooshenas Pedram
+Assistant Professor
+Department of Computer Science
+(312) 996-8521
+pedram@uic.edu
+
+Sidiropoulos Anastasios
+Associate Professor
+Department of Computer Science
+(312) 413-2424
+sidiropo@uic.edu
+
+Sintos Stavros
+Assistant Professor
+Department of Computer Science
+(312) 996-4860
+stavros@uic.edu
+
+Sistla Aravinda Prasad
+Professor
+Department of Computer Science
+(312) 996-6770
+sistla@uic.edu
+
+Sloan Robert
+Professor
+Department of Computer Science
+(312) 996-0498
+sloan@uic.edu
+
+Solworth Jon
+Associate Professor
+Department of Computer Science
+(312) 413-2416
+solworth@uic.edu
+
+Soni Nikita
+Assistant Professor
+Department of Computer Science
+(312) 966-7172
+nnsoni@uic.edu
+
+Sun Xiaorui
+Assistant Professor
+Department of Computer Science
+(312) 355-1733
+xiaorui@uic.edu
+
+Tang Wei
+Assistant Professor
+Department of Computer Science
+(312) 355-1339
+tangw@uic.edu
+
+Theys Mitchell
+Clinical Associate Professor
+Department of Computer Science
+(312) 413-9267
+mtheys@uic.edu
+
+Troy Patrick
+Clinical Associate Professor
+Department of Computer Science
+(312) 996-8521
+troy@uic.edu
+
+Vamanan Balajee
+Assistant Professor
+Department of Computer Science
+(312) 413-2424
+bvamanan@uic.edu
+
+Venkatakrishnan V. N.
+Professor
+Department of Computer Science
+(312) 996-4860
+venkat@uic.edu
+
+Wolfson Ouri
+Richard and Loan Hill Professor
+Department of Computer Science
+(312) 996-6770
+wolfson@uic.edu
+
+Yu Philip S.
+Distinguished Professor
+Department of Computer Science
+(312) 996-0498
+psyu@uic.edu
+
+Zhang Xinhua
+Associate Professor
+Department of Computer Science
+(312) 413-2416
+zhangx@uic.edu
+
+Zheleva Elena
+Assistant Professor
+Department of Computer Science
+(312) 996-7172
+ezheleva@uic.edu
+
+Ziebart Brian
+Associate Professor
+Department of Computer Science
+(312) 355-1733
+bziebart@uic.edu
+
+Zuck Lenore
+Research Professor
+Department of Computer Science
+(312) 355-1339
+zuck@uic.edu
