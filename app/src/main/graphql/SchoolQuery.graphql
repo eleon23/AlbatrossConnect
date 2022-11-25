@@ -1,0 +1,17 @@
+query SchoolQuery(
+    $query: String!
+)
+{
+    autocomplete(query: $query) {
+        schools {
+            edges {
+                node {
+                    id
+                    name
+                    city
+                    state
+                }
+            }
+        }
+    }
+}

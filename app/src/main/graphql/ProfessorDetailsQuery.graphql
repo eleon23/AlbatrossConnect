@@ -1,0 +1,24 @@
+query ProfessorDetailsQuery(
+    $id: ID!
+) {
+    node(id: $id) {
+        ... on Teacher {
+            id
+            firstName
+            lastName
+            school {
+                name
+                id
+                city
+                state
+            }
+            avgDifficulty
+            avgRating
+            department
+            numRatings
+            legacyId
+            wouldTakeAgainPercent
+        }
+        id
+    }
+}

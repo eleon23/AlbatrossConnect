@@ -22,20 +22,27 @@ class MainActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         GlobalScope.launch{
-            getSchools()
+            getSpecificProfessor()
         }
 
     }
 
-    suspend fun getSchools() {
+    suspend fun getSpecificProfessor() {
         val apolloClient = ApolloClient.Builder()
             .serverUrl("https://www.ratemyprofessors.com/graphql")
             .httpHeaders(listOf(HttpHeader("authorization", "Basic dGVzdDp0ZXN0")))
             .build()
 
 
-        val response = apolloClient.query(ProfessorQuery(query = "Chicago")).execute()
 
-        println("Hero.name=${response.operation}")
+        // UIC is U2Nob29sLTExMTE=
+        //Access data like this schoolResponse.data.newSearch.teachers.edges[0].node
+        val professorResponse = apolloClient.query(ProfessorAndSchoolQuery(text = "Dale Reed", schoolID = "U2Nob29sLTExMTE=")).execute()
+        val professorId: String? =  professorResponse.data?.newSearch?.teachers?.edges?.get(0)?.node?.id
+        val professorDetails = apolloClient.query(ProfessorDetailsQuery(
+            id = professorId!!)).execute()
+
+        println("Professor.id=${professorId}")
+        println("Professor.details=${professorDetails.data}")
     }
 }
