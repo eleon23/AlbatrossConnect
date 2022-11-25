@@ -24,4 +24,10 @@
     <string name="professor_or_course">Professor/Course</string>
     <string name="years_taken">Year Taken</string>
     <string name="rating_review_page">3.0\nOK</string>
+    <string name="sender">Sender</string>
+    <string name="date">Nov 25</string>
+    <string name="user_icon">User Icon</string>
+    <string name="message">Message</string>
+    <string name="time">8:35 pm</string>
+    <string name="user_name">User Name</string>
 </resources>
