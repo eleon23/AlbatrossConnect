@@ -37,3 +37,15 @@ data class Professor(
     val phone: Long,
     val email: String
 )
+
+data class RawProfessors(
+    val professors: List<RawProfessor>
+)
+
+data class RawProfessor(
+    val name: String,
+    val position: String,
+    val department: String,
+    val phone: Long,
+    val email: String
+)

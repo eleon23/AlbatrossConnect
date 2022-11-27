@@ -1,0 +1,474 @@
+{
+  "professors": [
+
+    {
+      "name": "Asudeh Abolfazl",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-4860",
+      "email": "asudeh@uic.edu"
+    },
+    {
+      "name": "Bell John",
+      "position": "Senior Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-9054",
+      "email": "jbell@uic.edu"
+    },
+    {
+      "name": "Bello Gonzalo",
+      "position": "Clinical Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-5360",
+      "email": "gabellol@uic.edu"
+    },
+    {
+      "name": "Bernstein Daniel J.",
+      "position": "Research Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-9322",
+      "email": "djb@math.uic.edu"
+    },
+    {
+      "name": "Burton Emanuelle",
+      "position": "Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2448",
+      "email": "enburton@uic.edu"
+    },
+    {
+      "name": "Buy Ugo",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2296",
+      "email": "buy@uic.edu"
+    },
+    {
+      "name": "Caragea Cornelia",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2807",
+      "email": "cornelia@uic.edu"
+    },
+    {
+      "name": "Chattopadhyay Debaleena",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-5183",
+      "email": "debchatt@uic.edu"
+    },
+    {
+      "name": "Cheng Lu",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "312-355-8075",
+      "email": "lucheng@uic.edu"
+    },
+    {
+      "name": "Clayville Kristel",
+      "position": "Lecturer",
+      "department": "Computer Science",
+      "phone": "(312) 413-2284",
+      "email": "kclayvil@uic.edu"
+    },
+    {
+      "name": "Cranch Cody",
+      "position": "Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1319",
+      "email": "ccranc2@uic.edu"
+    },
+    {
+      "name": "Cruz Isabel",
+      "position": "Distinguished Professor (In Memoriam)",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-7566",
+      "email": "cs-info@uic.edu"
+    },
+    {
+      "name": "DasGupta Bhaskar",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3422",
+      "email": "bdasgup@uic.edu"
+    },
+    {
+      "name": "DiEugenio Barbara",
+      "position": "Professor, Director of Graduate Studies",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-0481",
+      "email": "bdieugen@uic.edu"
+    },
+    {
+      "name": "Diaz Diana",
+      "position": "Clinical Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-0365",
+      "email": "dmdh@uic.edu"
+    },
+    {
+      "name": "Eriksson Jakob",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1320",
+      "email": "jakob@uic.edu"
+    },
+    {
+      "name": "Gjomemo Rigel",
+      "position": "Research Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-3250",
+      "email": "rgjome1@uic.edu"
+    },
+    {
+      "name": "Gmytrasiewicz Piotr",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3236",
+      "email": "piotr@uic.edu"
+    },
+    {
+      "name": "Grechanik Mark",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-8138",
+      "email": "drmark@uic.edu"
+    },
+    {
+      "name": "Hallenbeck Mark",
+      "position": "Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3002",
+      "email": "mhalle5@uic.edu"
+    },
+    {
+      "name": "Hayes David",
+      "position": "Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-0950",
+      "email": "dhayes1@uic.edu"
+    },
+    {
+      "name": "Johnson Andrew",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2795",
+      "email": "ajohnson@uic.edu"
+    },
+    {
+      "name": "Kanich Chris",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-2434",
+      "email": "ckanich@uic.edu"
+    },
+    {
+      "name": "Kash Ian",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1309",
+      "email": "iankash@uic.edu"
+    },
+    {
+      "name": "Kerne Andruid",
+      "position": "Professor",
+      "department": "Computer Science",
+      "phone": "(312) 355-2129",
+      "email": "andruid@uic.edu"
+    },
+    {
+      "name": "Kidane Ellen",
+      "position": "Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1318",
+      "email": "ekidan2@uic.edu"
+    },
+    {
+      "name": "Koehler Adam",
+      "position": "Clinical Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1310",
+      "email": "akoehler@uic.edu"
+    },
+    {
+      "name": "Kshemkalyani Ajay",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2672",
+      "email": "ajay@uic.edu"
+    },
+    {
+      "name": "Lillis John",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-5941",
+      "email": "lillis@uic.edu"
+    },
+    {
+      "name": "Liu Bing",
+      "position": "Distinguished Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3082",
+      "email": "liub@uic.edu"
+    },
+    {
+      "name": "Lyons Leilah",
+      "position": "Research Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-1888",
+      "email": "llyons@uic.edu"
+    },
+    {
+      "name": "Mansky William",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3422",
+      "email": "mansky1@uic.edu"
+    },
+    {
+      "name": "Marai G. Elisabeta",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3259",
+      "email": "gmarai@uic.edu"
+    },
+    {
+      "name": "McCarty Evan",
+      "position": "Lecturer",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1310",
+      "email": "emccarty@uic.edu"
+    },
+    {
+      "name": "Medya Sourav",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-8000",
+      "email": "medya@uic.edu"
+    },
+    {
+      "name": "Michaelis Joseph E",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2442",
+      "email": "jmich@uic.edu"
+    },
+    {
+      "name": "Miranda Fabio",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2946",
+      "email": "fabiom@uic.edu"
+    },
+    {
+      "name": "Nelson Peter",
+      "position": "Dean",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2465",
+      "email": "nelson@uic.edu"
+    },
+    {
+      "name": "Papka Michael E.",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2647",
+      "email": "papka@uic.edu"
+    },
+    {
+      "name": "Parde Natalie",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-9478",
+      "email": "parde@uic.edu"
+    },
+    {
+      "name": "Pina Luis",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3002",
+      "email": "luispina@uic.edu"
+    },
+    {
+      "name": "Polakis Jason",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-5077",
+      "email": "polakis@uic.edu"
+    },
+    {
+      "name": "Ravi Sathya",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-8779",
+      "email": "sathya@uic.edu"
+    },
+    {
+      "name": "Reckinger Shanon",
+      "position": "Clinical Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-2369",
+      "email": "shanon@uic.edu"
+    },
+    {
+      "name": "Reckinger Scott",
+      "position": "Clinical Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-0955",
+      "email": "scotreck@uic.edu"
+    },
+    {
+      "name": "Reed Dale",
+      "position": "Clinical Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-3476",
+      "email": "reed@uic.edu"
+    },
+    {
+      "name": "Renambot Luc",
+      "position": "Associate Research Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-9088",
+      "email": "renambot@uic.edu"
+    },
+    {
+      "name": "Riazi Sara",
+      "position": "Clinical Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-9267",
+      "email": "riazi@uic.edu"
+    },
+    {
+      "name": "Rooshenas Pedram",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-8521",
+      "email": "pedram@uic.edu"
+    },
+    {
+      "name": "Sidiropoulos Anastasios",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2424",
+      "email": "sidiropo@uic.edu"
+    },
+    {
+      "name": "Sintos Stavros",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-4860",
+      "email": "stavros@uic.edu"
+    },
+    {
+      "name": "Sistla Aravinda Prasad",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-6770",
+      "email": "sistla@uic.edu"
+    },
+    {
+      "name": "Sloan Robert",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-0498",
+      "email": "sloan@uic.edu"
+    },
+    {
+      "name": "Solworth Jon",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2416",
+      "email": "solworth@uic.edu"
+    },
+    {
+      "name": "Soni Nikita",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 966-7172",
+      "email": "nnsoni@uic.edu"
+    },
+    {
+      "name": "Sun Xiaorui",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1733",
+      "email": "xiaorui@uic.edu"
+    },
+    {
+      "name": "Tang Wei",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1339",
+      "email": "tangw@uic.edu"
+    },
+    {
+      "name": "Theys Mitchell",
+      "position": "Clinical Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-9267",
+      "email": "mtheys@uic.edu"
+    },
+    {
+      "name": "Troy Patrick",
+      "position": "Clinical Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-8521",
+      "email": "troy@uic.edu"
+    },
+    {
+      "name": "Vamanan Balajee",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2424",
+      "email": "bvamanan@uic.edu"
+    },
+    {
+      "name": "Venkatakrishnan V. N.",
+      "position": "Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-4860",
+      "email": "venkat@uic.edu"
+    },
+    {
+      "name": "Wolfson Ouri",
+      "position": "Richard and Loan Hill Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-6770",
+      "email": "wolfson@uic.edu"
+    },
+    {
+      "name": "Yu Philip S.",
+      "position": "Distinguished Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-0498",
+      "email": "psyu@uic.edu"
+    },
+    {
+      "name": "Zhang Xinhua",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 413-2416",
+      "email": "zhangx@uic.edu"
+    },
+    {
+      "name": "Zheleva Elena",
+      "position": "Assistant Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 996-7172",
+      "email": "ezheleva@uic.edu"
+    },
+    {
+      "name": "Ziebart Brian",
+      "position": "Associate Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1733",
+      "email": "bziebart@uic.edu"
+    },
+    {
+      "name": "Zuck Lenore",
+      "position": "Research Professor",
+      "department": "Department of Computer Science",
+      "phone": "(312) 355-1339",
+      "email": "zuck@uic.edu"
+    }
+  ]
+}
