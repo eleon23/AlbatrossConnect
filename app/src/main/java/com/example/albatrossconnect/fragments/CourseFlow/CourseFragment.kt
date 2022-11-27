@@ -33,7 +33,22 @@ class CourseFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setUpRecyclerView()
+        setUpBottomNavBar()
+    }
 
+
+    private fun setUpBottomNavBar() {
+        binding.bottomNavigation.setOnItemSelectedListener {
+            when(it.itemId) {
+                R.id.ic_courses-> {
+                    true
+                }
+                R.id.ic_professors -> {
+                    view?.findNavController()?.navigate(R.id.action_courseFragment_to_professorFragment)
+                    true
+                } else -> false
+            }
+        }
     }
 
     private fun setUpMockData() : List<Course> {
@@ -73,7 +88,7 @@ class CourseAdapter(private val data: List<Course>) :
             courseNumber.text = "CS ${course.courseNumber}"
             courseTitle.text = course.courseName
             professorName.text = course.professor
-            courseRating.rating = course.rating.toFloat()
+            //courseRating.rating = course.rating.toFloat()
             CRN.text = "CRN: ${course.CRN}"
 
             courseDescription.setOnClickListener {

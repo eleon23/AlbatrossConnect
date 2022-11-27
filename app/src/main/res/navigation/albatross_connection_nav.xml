@@ -26,6 +26,9 @@
         <action
             android:id="@+id/action_courseFragment_to_courseDetailFragment"
             app:destination="@id/courseDetailFragment" />
+        <action
+            android:id="@+id/action_courseFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
     </fragment>
     <fragment
         android:id="@+id/professorFragment"
@@ -35,6 +38,9 @@
         <action
             android:id="@+id/action_professorFragment_to_professorDetailFragment"
             app:destination="@id/professorDetailFragment" />
+        <action
+            android:id="@+id/action_professorFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
     </fragment>
     <fragment
         android:id="@+id/courseDetailFragment"
@@ -47,12 +53,25 @@
         <action
             android:id="@+id/action_courseDetailFragment_to_courseReviewFragment"
             app:destination="@id/courseReviewFragment" />
+        <action
+            android:id="@+id/action_courseDetailFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
+        <action
+            android:id="@+id/action_courseDetailFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
     </fragment>
     <fragment
         android:id="@+id/coursePrerequisiteFragment"
         android:name="com.example.albatrossconnect.fragments.CourseFlow.CoursePrerequisiteFragment"
         android:label="fragment_course_prerequisite"
-        tools:layout="@layout/course_prerequisite_fragment" />
+        tools:layout="@layout/course_prerequisite_fragment" >
+        <action
+            android:id="@+id/action_coursePrerequisiteFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
+        <action
+            android:id="@+id/action_coursePrerequisiteFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+    </fragment>
     <fragment
         android:id="@+id/professorDetailFragment"
         android:name="com.example.albatrossconnect.fragments.ProfessorFlow.ProfessorDetailFragment"
@@ -64,15 +83,32 @@
         <action
             android:id="@+id/action_professorDetailFragment_to_courseFragment"
             app:destination="@id/courseFragment" />
+        <action
+            android:id="@+id/action_professorDetailFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
     </fragment>
     <fragment
         android:id="@+id/professorReviewFragment"
         android:name="com.example.albatrossconnect.fragments.ProfessorFlow.ProfessorReviewFragment"
         android:label="fragment_professor_review"
-        tools:layout="@layout/professor_review_fragment" />
+        tools:layout="@layout/professor_review_fragment" >
+        <action
+            android:id="@+id/action_professorReviewFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+        <action
+            android:id="@+id/action_professorReviewFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
+    </fragment>
     <fragment
         android:id="@+id/courseReviewFragment"
         android:name="com.example.albatrossconnect.fragments.CourseFlow.CourseReviewFragment"
         android:label="fragment_course_review"
-        tools:layout="@layout/course_review_fragment" />
+        tools:layout="@layout/course_review_fragment" >
+        <action
+            android:id="@+id/action_courseReviewFragment_to_courseFragment"
+            app:destination="@id/courseFragment" />
+        <action
+            android:id="@+id/action_courseReviewFragment_to_professorFragment"
+            app:destination="@id/professorFragment" />
+    </fragment>
 </navigation>
