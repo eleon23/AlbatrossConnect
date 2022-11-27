@@ -5,469 +5,536 @@
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-4860",
-      "email": "asudeh@uic.edu"
+      "email": "asudeh@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2021/07/abol-157x180.jpg"
     },
     {
       "name": "Bell John",
       "position": "Senior Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 413-9054",
-      "email": "jbell@uic.edu"
+      "email": "jbell@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/John-Bell-157x180.jpg"
     },
     {
       "name": "Bello Gonzalo",
       "position": "Clinical Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-5360",
-      "email": "gabellol@uic.edu"
+      "email": "gabellol@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Gonzalo-Bello-157x180.png"
     },
     {
       "name": "Bernstein Daniel J.",
       "position": "Research Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-9322",
-      "email": "djb@math.uic.edu"
+      "email": "djb@math.uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Daniel-J.-Bernstein-157x180.jpg"
     },
     {
       "name": "Burton Emanuelle",
       "position": "Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2448",
-      "email": "enburton@uic.edu"
+      "email": "enburton@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Burton-Emanuelle-CS_1UI4687-157x180.jpg"
     },
     {
       "name": "Buy Ugo",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2296",
-      "email": "buy@uic.edu"
+      "email": "buy@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Ugo-Buy-157x180.jpg"
     },
     {
       "name": "Caragea Cornelia",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2807",
-      "email": "cornelia@uic.edu"
+      "email": "cornelia@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/01/cornelia-headshot-157x180.png"
     },
     {
       "name": "Chattopadhyay Debaleena",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-5183",
-      "email": "debchatt@uic.edu"
+      "email": "debchatt@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Debaleena-Chattopadhyay-157x180.jpg"
     },
     {
       "name": "Cheng Lu",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "312-355-8075",
-      "email": "lucheng@uic.edu"
+      "email": "lucheng@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/Lu-Cheng--157x180.jpg"
     },
     {
       "name": "Clayville Kristel",
       "position": "Lecturer",
       "department": "Computer Science",
       "phone": "(312) 413-2284",
-      "email": "kclayvil@uic.edu"
+      "email": "kclayvil@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2021/08/Clayville-Kristel-CS_1UI4694-157x180.jpg"
     },
     {
       "name": "Cranch Cody",
       "position": "Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1319",
-      "email": "ccranc2@uic.edu"
+      "email": "ccranc2@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Cody-Cranch-157x180.jpg"
     },
     {
       "name": "Cruz Isabel",
       "position": "Distinguished Professor (In Memoriam)",
       "department": "Department of Computer Science",
       "phone": "(312) 996-7566",
-      "email": "cs-info@uic.edu"
+      "email": "cs-info@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Isabel-Cruz-157x180.jpg"
     },
     {
       "name": "DasGupta Bhaskar",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3422",
-      "email": "bdasgup@uic.edu"
+      "email": "bdasgup@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Bhaskar-DasGupta-157x180.jpg"
     },
     {
       "name": "DiEugenio Barbara",
       "position": "Professor, Director of Graduate Studies",
       "department": "Department of Computer Science",
       "phone": "(312) 996-0481",
-      "email": "bdieugen@uic.edu"
+      "email": "bdieugen@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/DiEugenio-Barbara-CS_1UI6810-copy-157x180.jpg"
     },
     {
       "name": "Diaz Diana",
       "position": "Clinical Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-0365",
-      "email": "dmdh@uic.edu"
+      "email": "dmdh@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2020/02/Diaz-Diana-CS_1UI6681-157x180.jpg"
     },
     {
       "name": "Eriksson Jakob",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1320",
-      "email": "jakob@uic.edu"
+      "email": "jakob@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Jakob-Eriksson-157x180.jpg"
     },
     {
       "name": "Gjomemo Rigel",
       "position": "Research Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-3250",
-      "email": "rgjome1@uic.edu"
+      "email": "rgjome1@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/01/Rigel-Gjomemo-157x180.png"
     },
     {
       "name": "Gmytrasiewicz Piotr",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3236",
-      "email": "piotr@uic.edu"
+      "email": "piotr@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Piotr-Gmytrasiewicz-157x180.jpg"
     },
     {
       "name": "Grechanik Mark",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-8138",
-      "email": "drmark@uic.edu"
+      "email": "drmark@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Mark-Grechanik-157x180.jpg"
     },
     {
       "name": "Hallenbeck Mark",
       "position": "Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3002",
-      "email": "mhalle5@uic.edu"
+      "email": "mhalle5@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/01/hallenbeck-157x180.jpg"
     },
     {
       "name": "Hayes David",
       "position": "Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 355-0950",
-      "email": "dhayes1@uic.edu"
+      "email": "dhayes1@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/David-Hayes-157x180.png"
     },
     {
       "name": "Johnson Andrew",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2795",
-      "email": "ajohnson@uic.edu"
+      "email": "ajohnson@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Andrew-Johnson-157x180.jpg"
     },
     {
       "name": "Kanich Chris",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-2434",
-      "email": "ckanich@uic.edu"
+      "email": "ckanich@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2020/02/Kanich_Chris-1-157x180.jpg"
     },
     {
       "name": "Kash Ian",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1309",
-      "email": "iankash@uic.edu"
+      "email": "iankash@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Ian-Kash-157x180.png"
     },
     {
       "name": "Kerne Andruid",
       "position": "Professor",
       "department": "Computer Science",
       "phone": "(312) 355-2129",
-      "email": "andruid@uic.edu"
+      "email": "andruid@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/thumbnail_andruid-157x180.jpg"
     },
     {
       "name": "Kidane Ellen",
       "position": "Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1318",
-      "email": "ekidan2@uic.edu"
+      "email": "ekidan2@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2021/08/Kidane-Headshot-157x180.jpg"
     },
     {
       "name": "Koehler Adam",
       "position": "Clinical Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1310",
-      "email": "akoehler@uic.edu"
+      "email": "akoehler@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2020/08/AdamKoehler_Headshot_SquareCrop-157x180.jpg"
     },
     {
       "name": "Kshemkalyani Ajay",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2672",
-      "email": "ajay@uic.edu"
+      "email": "ajay@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Ajay-Kshemkalyani-157x180.jpg"
     },
     {
       "name": "Lillis John",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-5941",
-      "email": "lillis@uic.edu"
+      "email": "lillis@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/John-Lillis-157x180.jpg"
     },
     {
       "name": "Liu Bing",
       "position": "Distinguished Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3082",
-      "email": "liub@uic.edu"
+      "email": "liub@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Bing-Liu-157x180.jpg"
     },
     {
       "name": "Lyons Leilah",
       "position": "Research Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-1888",
-      "email": "llyons@uic.edu"
+      "email": "llyons@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Leilah-Lyons-157x180.jpg"
     },
     {
       "name": "Mansky William",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3422",
-      "email": "mansky1@uic.edu"
+      "email": "mansky1@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/william-mansky-157x180.png"
     },
     {
       "name": "Marai G. Elisabeta",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3259",
-      "email": "gmarai@uic.edu"
+      "email": "gmarai@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/G.-Elisabeta-Marai-157x180.jpg"
     },
     {
       "name": "McCarty Evan",
       "position": "Lecturer",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1310",
-      "email": "emccarty@uic.edu"
+      "email": "emccarty@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Evan-McCarty-CS__1-157x180.jpg"
     },
     {
       "name": "Medya Sourav",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-8000",
-      "email": "medya@uic.edu"
+      "email": "medya@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/medya51-157x180.jpg"
     },
     {
       "name": "Michaelis Joseph E",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2442",
-      "email": "jmich@uic.edu"
+      "email": "jmich@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2020/12/michaelis-headshot-facultyPage-157x180.png"
     },
     {
       "name": "Miranda Fabio",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2946",
-      "email": "fabiom@uic.edu"
+      "email": "fabiom@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2020/08/FabioMiranda-157x180.jpeg"
     },
     {
       "name": "Nelson Peter",
       "position": "Dean",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2465",
-      "email": "nelson@uic.edu"
+      "email": "nelson@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Peter-Nelson-157x180.jpg"
     },
     {
       "name": "Papka Michael E.",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2647",
-      "email": "papka@uic.edu"
+      "email": "papka@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/Papka-157x180.jpg"
     },
     {
       "name": "Parde Natalie",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-9478",
-      "email": "parde@uic.edu"
+      "email": "parde@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Natalie-Parde-157x180.png"
     },
     {
       "name": "Pina Luis",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3002",
-      "email": "luispina@uic.edu"
+      "email": "luispina@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/08/Luis-Pina-CS-157x180.jpg"
     },
     {
       "name": "Polakis Jason",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-5077",
-      "email": "polakis@uic.edu"
+      "email": "polakis@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/04/polakis-2-900x900-157x180.png"
     },
     {
       "name": "Ravi Sathya",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-8779",
-      "email": "sathya@uic.edu"
+      "email": "sathya@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/10/my_photo_1_size-157x180.png"
     },
     {
       "name": "Reckinger Shanon",
       "position": "Clinical Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-2369",
-      "email": "shanon@uic.edu"
+      "email": "shanon@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2021/01/PortraitSmall-1-157x180.png"
     },
     {
       "name": "Reckinger Scott",
       "position": "Clinical Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-0955",
-      "email": "scotreck@uic.edu"
+      "email": "scotreck@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Scott-Reckinger-157x180.png"
     },
     {
       "name": "Reed Dale",
       "position": "Clinical Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-3476",
-      "email": "reed@uic.edu"
+      "email": "reed@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/DReed-157x180.jpeg"
     },
     {
       "name": "Renambot Luc",
       "position": "Associate Research Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-9088",
-      "email": "renambot@uic.edu"
+      "email": "renambot@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Luc-Renambot-157x180.jpg"
     },
     {
       "name": "Riazi Sara",
       "position": "Clinical Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-9267",
-      "email": "riazi@uic.edu"
+      "email": "riazi@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/sara-riazi64-157x180.png"
     },
     {
       "name": "Rooshenas Pedram",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-8521",
-      "email": "pedram@uic.edu"
+      "email": "pedram@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/Rooshenas-157x180.jpeg"
     },
     {
       "name": "Sidiropoulos Anastasios",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2424",
-      "email": "sidiropo@uic.edu"
+      "email": "sidiropo@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Anastasios-Sidiropoulos-157x180.jpg"
     },
     {
       "name": "Sintos Stavros",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-4860",
-      "email": "stavros@uic.edu"
+      "email": "stavros@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/08/Sintos-157x180.jpeg"
     },
     {
       "name": "Sistla Aravinda Prasad",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-6770",
-      "email": "sistla@uic.edu"
+      "email": "sistla@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Prasad-Sistla-157x180.jpg"
     },
     {
       "name": "Sloan Robert",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-0498",
-      "email": "sloan@uic.edu"
+      "email": "sloan@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Bob-Sloan-CS_-1024x671-1-157x180.jpg"
     },
     {
       "name": "Solworth Jon",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2416",
-      "email": "solworth@uic.edu"
+      "email": "solworth@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Jon-Solworth-157x180.jpg"
     },
     {
       "name": "Soni Nikita",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 966-7172",
-      "email": "nnsoni@uic.edu"
+      "email": "nnsoni@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/06/NikitaSoni_headshot4-1-157x180.jpg"
     },
     {
       "name": "Sun Xiaorui",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1733",
-      "email": "xiaorui@uic.edu"
+      "email": "xiaorui@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Xiaorui-Sun-157x180.png"
     },
     {
       "name": "Tang Wei",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1339",
-      "email": "tangw@uic.edu"
+      "email": "tangw@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2019/09/Wei-Tang-CS_600_668-157x180.jpg"
     },
     {
       "name": "Theys Mitchell",
       "position": "Clinical Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-9267",
-      "email": "mtheys@uic.edu"
+      "email": "mtheys@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Mitchell-Theys-157x180.jpg"
     },
     {
       "name": "Troy Patrick",
       "position": "Clinical Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-8521",
-      "email": "troy@uic.edu"
+      "email": "troy@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Patrick-Troy-157x180.jpg"
     },
     {
       "name": "Vamanan Balajee",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2424",
-      "email": "bvamanan@uic.edu"
+      "email": "bvamanan@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2022/01/bvamanan-18-3-1-157x180.jpg"
     },
     {
       "name": "Venkatakrishnan V. N.",
       "position": "Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-4860",
-      "email": "venkat@uic.edu"
+      "email": "venkat@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/V.-N.-Venkatakrishnan-157x180.jpg"
     },
     {
       "name": "Wolfson Ouri",
       "position": "Richard and Loan Hill Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-6770",
-      "email": "wolfson@uic.edu"
+      "email": "wolfson@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Ouri-Wolfson-157x180.jpg"
     },
     {
       "name": "Yu Philip S.",
       "position": "Distinguished Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-0498",
-      "email": "psyu@uic.edu"
+      "email": "psyu@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Philip-S.-Yu-157x180.jpg"
     },
     {
       "name": "Zhang Xinhua",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 413-2416",
-      "email": "zhangx@uic.edu"
+      "email": "zhangx@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Xinhua-Zhang-157x180.jpg"
     },
     {
       "name": "Zheleva Elena",
       "position": "Assistant Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 996-7172",
-      "email": "ezheleva@uic.edu"
+      "email": "ezheleva@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Elena-Zheleva-157x180.jpg"
     },
     {
       "name": "Ziebart Brian",
       "position": "Associate Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1733",
-      "email": "bziebart@uic.edu"
+      "email": "bziebart@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Brian-Ziebart-157x180.jpg"
     },
     {
       "name": "Zuck Lenore",
       "position": "Research Professor",
       "department": "Department of Computer Science",
       "phone": "(312) 355-1339",
-      "email": "zuck@uic.edu"
+      "email": "zuck@uic.edu",
+      "pic": "https://cs.uic.edu/wp-content/uploads/sites/110/2018/06/Lenore-Zuck-157x180.jpg"
     }
   ]
 }
