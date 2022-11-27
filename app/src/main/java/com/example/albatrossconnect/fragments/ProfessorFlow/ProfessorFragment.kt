@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Professor
+import com.example.albatrossconnect.data.Professors
 import com.example.albatrossconnect.data.RawProfessors
 import com.example.albatrossconnect.databinding.ProfessorCardCellBinding
 import com.example.albatrossconnect.databinding.ProfessorFragmentBinding
@@ -47,7 +48,8 @@ class ProfessorFragment : Fragment() {
     private fun setUpRecyclerView() {
         binding.recyclerProfessor.apply {
             layoutManager = LinearLayoutManager(context)
-            val adapter = ProfessorAdapter(setUpMockData())
+            val adapterData = arguments?.getSerializable("professors")
+            val adapter = ProfessorAdapter((adapterData as Professors).professors)
             setAdapter(adapter)
         }
     }
@@ -69,7 +71,7 @@ class ProfessorAdapter(private val data: List<Professor>) :
             professorName.text = professor.name
             professorPosition.text = professor.position
             department.text = professor.department
-            professorPhone.text = professor.phone.toString()
+            professorPhone.text = professor.phone
             professorEmail.text = professor.email
            // professorRating.text = professor.rating.toString()
 
