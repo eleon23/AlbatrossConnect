@@ -1,0 +1,59 @@
+{
+    "courses": [
+        {
+            "number": "CS100",
+            "hours": "3",
+            "meta": "Discovering Computer Science",
+            "description": "Fundamentals of computing; history of computation; computer organization; program design, testing and debugging; web design; computer animation; software tools; societal and legal issues in computing. Course Information: Credit is not given for CS 100 if the student has credit in CS 111 or CS 112 or CS 113 or CS 107 or CS 109 or MCS 260. No graduation credit given to students enrolled in Engineering. No graduation credit for students enrolled in a major offered by the Departments of Biomedical Engineering, Chemical Engineering, Civil Materials and Environmental Engineering, Computer Science, Electrical and Computer Engineering, or Mechanical and Industrial Engineering. Extensive computer use required.",
+            "schedule": "To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion. Natural World - No Lab course.",
+            "prerequisites": ""
+        },
+        {
+            "number": "CS107",
+            "meta": "4",
+            "description": "Access and use of computing resources. Programming and program design. Problem solving. Data types, control structures, modularity, information hiding. Course Information: Credit is not given for CS 107 if the student has credit for CS 102. Previously listed as EECS 171.",
+            "schedule": "To be properly registered, students must enroll in one Laboratory and one Lecture.",
+            "prerequisites": "Credit or concurrent registration in MATH 180."
+        },
+        {
+            "number": "CS109",
+            "hours": "3",
+            "meta": "Programming for Engineers with MatLab.",
+            "description": "Program design and problem solving using MATLAB; numeric computation; data types and operators; control structures; functions; file I/O; arrays and structures; engineering applications:matrices and equation solution; programming assignments. Course Information: Credit is not given for CS 109 if the student has credit for CS 110. Extensive computer use required.",
+            "schedule": "To be properly registered, students must enroll in one Laboratory-Discussion and one Lecture-Discussion.",
+            "prerequisites": "Credit or concurrent registration in MATH 180."
+        },
+        {
+            "number": "CS110",
+            "hours": "1",
+            "meta": "MATLAB Programming for Engineers.",
+            "description": "Program design and problem solving using MATLAB. Numeric computation, control structures, vectors, matrices, file I/O, data analysis, visualization. Engineering applications; programming assignments. Course Imformation: Credit is not given for CS 110 if the student has credit for CS 109. Extensive computer use required.",
+            "schedule": "Meets 3 days each week for 5 weeks of the semester.",
+            "prerequisites": ["CS107", "CS111", "appropriate score on the department placement test."]
+        },
+        {
+            "number": "CS111",
+            "hours": "3",
+            "meta": "Program Design I",
+            "description": "Introduction to programming: control structures; variables and data types; problem decomposition and procedural programming; input and output; aggregate data structures including arrays; programming exercises. Course Information: 3 hours. Previously listed as CS 101. Extensive computer use required. Credit is not given for CS 111 if student has credit in CS 112 or CS 113.",
+            "schedule": "To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.",
+            "prerequisites": ""
+        },
+        {
+            "number": "",
+            "hours": "",
+            "meta": "",
+            "description": "",
+            "schedule": "",
+            "prerequisites": ""
+        },
+        {
+            "number": "",
+            "hours": "",
+            "meta": "",
+            "description": "",
+            "schedule": "",
+            "prerequisites": ""
+        }
+    ]
+}
