@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!--    <item name="linearLayoutBottom" type="id">linearLayoutBottom</item>-->
+    <item name="course_code" type="id">Course code</item>
+    <item name="recycler_courses" type="id">Courses Recycler</item>
+    <item name="course_description" type="id">Course Description</item>
 </resources>

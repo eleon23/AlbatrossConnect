@@ -80,7 +80,7 @@
                 app:layout_constraintTop_toBottomOf="@id/professor_position" />
 
             <RatingBar
-                android:id="@+id/prerequisite_course_rating"
+                android:id="@+id/professorRating"
                 style="?android:attr/ratingBarStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -88,7 +88,8 @@
                 android:layout_marginTop="8dp"
                 android:rating="2.5"
                 app:layout_constraintTop_toBottomOf="@id/professor_image"
-                tools:layout_editor_absoluteX="32dp" />
+                tools:layout_editor_absoluteX="32dp"
+                tools:ignore="MissingConstraints" />
 
             <TextView
                 android:id="@+id/professor_phone"

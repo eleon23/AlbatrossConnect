@@ -73,7 +73,7 @@ class ProfessorAdapter(private val data: List<Professor>) :
             department.text = professor.department
             professorPhone.text = professor.phone
             professorEmail.text = professor.email
-           // professorRating.text = professor.rating.toString()
+           professorRating.rating = professor.rating.toFloat()
 
             professorDescription.setOnClickListener {
                 root.findNavController().navigate(R.id.action_professorFragment_to_professorDetailFragment)

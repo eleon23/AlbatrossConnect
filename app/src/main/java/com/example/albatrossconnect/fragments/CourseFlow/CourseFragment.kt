@@ -73,7 +73,7 @@ class CourseAdapter(private val data: List<Course>) :
             courseNumber.text = "CS ${course.courseNumber}"
             courseTitle.text = course.courseName
             professorName.text = course.professor
-            //courseRating.text = course.rating.toString()
+            courseRating.rating = course.rating.toFloat()
             CRN.text = "CRN: ${course.CRN}"
 
             courseDescription.setOnClickListener {
