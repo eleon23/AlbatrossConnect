@@ -71,6 +71,9 @@
         <action
             android:id="@+id/action_coursePrerequisiteFragment_to_courseFragment"
             app:destination="@id/courseFragment" />
+        <action
+            android:id="@+id/action_coursePrerequisiteFragment_to_courseDetailFragment"
+            app:destination="@id/courseDetailFragment" />
     </fragment>
     <fragment
         android:id="@+id/professorDetailFragment"

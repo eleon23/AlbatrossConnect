@@ -23,6 +23,7 @@ class ProfessorDetailFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setUpOnClickListeners()
+        setUpBottomNavBar()
     }
 
     private fun setUpOnClickListeners() {
@@ -32,6 +33,20 @@ class ProfessorDetailFragment : Fragment() {
 
         binding.courses.setOnClickListener {
             binding.root.findNavController().navigate(R.id.action_professorDetailFragment_to_courseFragment)
+        }
+    }
+    private fun setUpBottomNavBar() {
+        binding.bottomNavigation.setOnItemSelectedListener {
+            when(it.itemId) {
+                R.id.ic_courses-> {
+                    view?.findNavController()?.navigate(R.id.action_professorDetailFragment_to_courseFragment)
+                    true
+                }
+                R.id.ic_professors -> {
+                    view?.findNavController()?.navigate(R.id.action_professorDetailFragment_to_professorFragment)
+                    true
+                } else -> false
+            }
         }
     }
 }

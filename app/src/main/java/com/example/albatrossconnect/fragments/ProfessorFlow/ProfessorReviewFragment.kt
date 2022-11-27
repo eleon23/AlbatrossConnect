@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
@@ -27,6 +28,7 @@ class ProfessorReviewFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setUpCourseTitle()
         setUpRecyclerView()
+        setUpBottomNavBar()
     }
 
     //TODO Fetch arguments to set this
@@ -52,6 +54,21 @@ class ProfessorReviewFragment : Fragment() {
                 "Intro to Computer Science"
             )
         )
+    }
+
+    private fun setUpBottomNavBar() {
+        binding.bottomNavigation.setOnItemSelectedListener {
+            when(it.itemId) {
+                R.id.ic_courses-> {
+                    view?.findNavController()?.navigate(R.id.action_professorReviewFragment_to_courseFragment)
+                    true
+                }
+                R.id.ic_professors -> {
+                    view?.findNavController()?.navigate(R.id.action_professorReviewFragment_to_professorFragment)
+                    true
+                } else -> false
+            }
+        }
     }
 }
 
