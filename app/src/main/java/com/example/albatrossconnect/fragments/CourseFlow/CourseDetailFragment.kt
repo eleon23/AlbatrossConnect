@@ -7,16 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.albatrossconnect.R
-import com.example.albatrossconnect.databinding.FragmentCourseBinding
-import com.example.albatrossconnect.databinding.FragmentCourseDetailBinding
+import com.example.albatrossconnect.databinding.CourseDetailFragmentBinding
 
 class CourseDetailFragment : Fragment() {
-    private lateinit var binding: FragmentCourseDetailBinding
+    private lateinit var binding: CourseDetailFragmentBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentCourseDetailBinding.inflate(inflater, container, false)
+        binding = CourseDetailFragmentBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }

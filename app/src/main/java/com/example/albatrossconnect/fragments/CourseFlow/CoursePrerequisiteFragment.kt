@@ -1,27 +1,26 @@
 package com.example.albatrossconnect.fragments.CourseFlow
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Course
-import com.example.albatrossconnect.databinding.FragmentCourseBinding
-import com.example.albatrossconnect.databinding.FragmentCoursePrerequisiteBinding
+import com.example.albatrossconnect.databinding.CoursePrerequisiteFragmentBinding
 import com.example.albatrossconnect.databinding.PrerequisiteItemBinding
 
 class CoursePrerequisiteFragment : Fragment() {
 
-    private lateinit var binding: FragmentCoursePrerequisiteBinding
+    private lateinit var binding: CoursePrerequisiteFragmentBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentCoursePrerequisiteBinding.inflate(inflater, container, false)
+        binding = CoursePrerequisiteFragmentBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }
@@ -77,7 +76,7 @@ class PrerequisiteAdapter(private val data: List<Course>) :
             courseNumber.text = "CS ${course.courseNumber}"
             courseTitle.text = course.courseName
             professorName.text = course.professor
-            courseRating.text = course.rating.toString()
+            //courseRating.text = course.rating.toString()
             CRN.text = "CRN: ${course.CRN}"
 
             courseDescription.setOnClickListener {

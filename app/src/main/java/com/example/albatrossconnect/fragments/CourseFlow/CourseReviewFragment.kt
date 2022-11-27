@@ -1,29 +1,25 @@
 package com.example.albatrossconnect.fragments.CourseFlow
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.findNavController
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
-import com.example.albatrossconnect.data.Course
 import com.example.albatrossconnect.data.Review
-import com.example.albatrossconnect.databinding.FragmentCourseDetailBinding
-import com.example.albatrossconnect.databinding.FragmentCourseReviewBinding
-import com.example.albatrossconnect.databinding.PrerequisiteItemBinding
-import com.example.albatrossconnect.databinding.ReviewItemBinding
+import com.example.albatrossconnect.databinding.CourseReviewFragmentBinding
+import com.example.albatrossconnect.databinding.CourseReviewItemBinding
 
 
 class CourseReviewFragment : Fragment() {
-    private lateinit var binding: FragmentCourseReviewBinding
+    private lateinit var binding: CourseReviewFragmentBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentCourseReviewBinding.inflate(inflater, container, false)
+        binding = CourseReviewFragmentBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }
@@ -62,10 +58,10 @@ class CourseReviewFragment : Fragment() {
 
 class ReviewAdapter(private val data: List<Review>) :
     RecyclerView.Adapter<ReviewAdapter.ViewHolder>() {
-    class ViewHolder(val binding: ReviewItemBinding) : RecyclerView.ViewHolder(binding.root)
+    class ViewHolder(val binding: CourseReviewItemBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val binding = ReviewItemBinding
+        val binding = CourseReviewItemBinding
             .inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }

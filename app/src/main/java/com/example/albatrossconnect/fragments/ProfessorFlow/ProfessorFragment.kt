@@ -1,29 +1,27 @@
 package com.example.albatrossconnect.fragments.ProfessorFlow
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Professor
-import com.example.albatrossconnect.databinding.FragmentProfessorBinding
-import com.example.albatrossconnect.databinding.PrerequisiteItemBinding
+import com.example.albatrossconnect.data.RawProfessors
 import com.example.albatrossconnect.databinding.ProfessorCardCellBinding
-import com.example.albatrossconnect.fragments.CourseFlow.CourseAdapter
+import com.example.albatrossconnect.databinding.ProfessorFragmentBinding
 
 class ProfessorFragment : Fragment() {
-    private lateinit var binding: FragmentProfessorBinding
-
+    private lateinit var binding: ProfessorFragmentBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentProfessorBinding.inflate(inflater, container, false)
+        binding = ProfessorFragmentBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }
@@ -31,7 +29,6 @@ class ProfessorFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         setUpRecyclerView()
-
     }
 
     private fun setUpMockData() : List<Professor> {
@@ -40,8 +37,8 @@ class ProfessorFragment : Fragment() {
                 "Dr. Dale Reed",
                 "Research Professor",
                 "Computer Science",
-                5,
-                7731234789,
+                5.0,
+                "7731234789",
                 "someEmail@Gmail.com"
             )
         )
@@ -74,7 +71,7 @@ class ProfessorAdapter(private val data: List<Professor>) :
             department.text = professor.department
             professorPhone.text = professor.phone.toString()
             professorEmail.text = professor.email
-            professorRating.text = professor.rating.toString()
+           // professorRating.text = professor.rating.toString()
 
             professorDescription.setOnClickListener {
                 root.findNavController().navigate(R.id.action_professorFragment_to_professorDetailFragment)

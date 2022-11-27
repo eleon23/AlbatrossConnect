@@ -1,27 +1,24 @@
 package com.example.albatrossconnect.fragments.ProfessorFlow
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Review
-import com.example.albatrossconnect.databinding.FragmentCourseReviewBinding
-import com.example.albatrossconnect.databinding.FragmentProfessorReviewBinding
-import com.example.albatrossconnect.databinding.ProfessorReviewItremBinding
-import com.example.albatrossconnect.databinding.ReviewItemBinding
-import com.example.albatrossconnect.fragments.CourseFlow.ReviewAdapter
+import com.example.albatrossconnect.databinding.ProfessorReviewFragmentBinding
+import com.example.albatrossconnect.databinding.ProfessorReviewItemBinding
 
 class ProfessorReviewFragment : Fragment() {
-    private lateinit var binding: FragmentProfessorReviewBinding
+    private lateinit var binding: ProfessorReviewFragmentBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentProfessorReviewBinding.inflate(inflater, container, false)
+        binding = ProfessorReviewFragmentBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }
@@ -60,10 +57,10 @@ class ProfessorReviewFragment : Fragment() {
 
 class ProfessorReviewAdapter(private val data: List<Review>) :
     RecyclerView.Adapter<ProfessorReviewAdapter.ViewHolder>() {
-    class ViewHolder(val binding: ProfessorReviewItremBinding) : RecyclerView.ViewHolder(binding.root)
+    class ViewHolder(val binding: ProfessorReviewItemBinding) : RecyclerView.ViewHolder(binding.root)
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val binding = ProfessorReviewItremBinding
+        val binding = ProfessorReviewItemBinding
             .inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }

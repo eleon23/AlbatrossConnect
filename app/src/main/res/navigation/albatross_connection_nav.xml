@@ -16,6 +16,7 @@
         <action
             android:id="@+id/action_homeFragment_to_professorFragment"
             app:destination="@id/professorFragment" />
+        <argument android:name="professorData" />
     </fragment>
     <fragment
         android:id="@+id/courseFragment"

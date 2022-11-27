@@ -1,5 +1,8 @@
 package com.example.albatrossconnect.data
 
+import com.fasterxml.jackson.annotation.JsonProperty
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize
+
 
 data class CourseDetails(
     val courses: List<Course>
@@ -26,26 +29,32 @@ data class Review(
 )
 
 data class Professors(
-    val professors: List<Professor>
-)
+    var professors: List<Professor>
+) : java.io.Serializable
 
 data class Professor(
     val name: String,
     val position: String,
     val department: String,
-    val rating: Int,
-    val phone: Long,
+    val rating: Double,
+    val phone: String,
     val email: String
-)
+) : java.io.Serializable
 
 data class RawProfessors(
+    @JsonProperty("professors")
     val professors: List<RawProfessor>
-)
+) : java.io.Serializable
 
 data class RawProfessor(
+    @JsonProperty("name")
     val name: String,
+    @JsonProperty("position")
     val position: String,
+    @JsonProperty("department")
     val department: String,
-    val phone: Long,
+    @JsonProperty("phone")
+    val phone: String,
+    @JsonProperty("email")
     val email: String
-)
+): java.io.Serializable
