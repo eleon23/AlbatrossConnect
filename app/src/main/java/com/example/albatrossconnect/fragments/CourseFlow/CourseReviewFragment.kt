@@ -1,5 +1,6 @@
 package com.example.albatrossconnect.fragments.CourseFlow
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.albatrossconnect.ContactList
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Course
 import com.example.albatrossconnect.data.Review
@@ -31,6 +33,9 @@ class CourseReviewFragment : Fragment() {
         setUpCourseTitle()
         setUpRecyclerView()
         setUpBottomNavBar()
+        binding.fab.setOnClickListener {
+            startActivity(Intent(context, ContactList::class.java))
+        }
     }
 
     //TODO Fetch arguments to set this

@@ -1,5 +1,6 @@
 package com.example.albatrossconnect.fragments.ProfessorFlow
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.MenuItem
@@ -14,6 +15,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.apollographql.apollo3.ApolloClient
 import com.apollographql.apollo3.api.http.HttpHeader
+import com.example.albatrossconnect.ContactList
 import com.example.albatrossconnect.ProfessorAndSchoolQuery
 import com.example.albatrossconnect.ProfessorDetailsQuery
 import com.example.albatrossconnect.R
@@ -53,6 +55,9 @@ class ProfessorFragment : Fragment() {
         binding.subTitle.text = "One second we are loading the professors"
         setUpProfessorData()
         setUpBottomNavBar()
+        binding.fab.setOnClickListener {
+            startActivity(Intent(context, ContactList::class.java))
+        }
     }
 
     private fun setUpProfessorData() {

@@ -1,5 +1,6 @@
 package com.example.albatrossconnect.fragments.ProfessorFlow
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import com.example.albatrossconnect.ContactList
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Professor
 import com.example.albatrossconnect.databinding.ProfessorDetailFragmentBinding
@@ -28,6 +30,9 @@ class ProfessorDetailFragment : Fragment() {
         setUpOnClickListeners()
         setUpBottomNavBar()
         getProfessorData()
+        binding.fab.setOnClickListener {
+            startActivity(Intent(context, ContactList::class.java))
+        }
     }
 
     private fun getProfessorData() {
