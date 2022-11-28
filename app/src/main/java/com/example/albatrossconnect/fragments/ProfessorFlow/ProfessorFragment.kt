@@ -72,7 +72,8 @@ class ProfessorFragment : Fragment() {
                         rawProfessor.department,
                         rating!!,
                         rawProfessor.phone,
-                        rawProfessor.email
+                        rawProfessor.email,
+                        rawProfessor.pic
                     )
                 )
             }
@@ -136,7 +137,8 @@ class ProfessorFragment : Fragment() {
                 "Computer Science",
                 5.0,
                 "7731234789",
-                "someEmail@Gmail.com"
+                "someEmail@Gmail.com",
+                "SomePic"
             )
         )
     }

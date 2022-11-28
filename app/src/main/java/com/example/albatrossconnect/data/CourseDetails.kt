@@ -56,7 +56,8 @@ data class Professor(
     val department: String,
     val rating: Double,
     val phone: String,
-    val email: String
+    val email: String,
+    val pic: String
 ) : java.io.Serializable
 
 data class RawProfessors(
@@ -74,5 +75,7 @@ data class RawProfessor(
     @JsonProperty("phone")
     val phone: String,
     @JsonProperty("email")
-    val email: String
+    val email: String,
+    @JsonProperty("pic")
+    val pic: String
 ): java.io.Serializable
