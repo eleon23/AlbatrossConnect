@@ -36,9 +36,9 @@ class CourseFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setUpRecyclerView()
         setUpBottomNavBar()
         setUpCoursesData()
+        setUpRecyclerView()
     }
 
     private fun setUpCoursesData() {
@@ -65,7 +65,7 @@ class CourseFragment : Fragment() {
     private fun setUpRecyclerView() {
         binding.recyclerCourses.apply {
             layoutManager = LinearLayoutManager(context)
-            val adapter = CourseAdapter(emptyList())
+            val adapter = CourseAdapter(courses.courses)
             setAdapter(adapter)
         }
     }
@@ -84,7 +84,7 @@ class CourseAdapter(private val data: List<Course>) :
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val course = data[position]
         holder.binding.apply {
-            courseNumber.text = "CS ${course.courseNumber}"
+            courseNumber.text = course.courseNumber
             courseTitle.text = course.courseName
             professorName.text = course.professor
             //courseRating.rating = course.rating.toFloat()
