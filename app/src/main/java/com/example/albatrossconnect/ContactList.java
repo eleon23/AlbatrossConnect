@@ -22,8 +22,8 @@ public class ContactList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.chat_user_page);
         movieView = findViewById(R.id.recycler_user_chat);/* Set View as recycler view*/
-        List<String> names = com.example.project2cs478fall2021_sasanka.Constants.movieNames;
-        List<String> dir_names = com.example.project2cs478fall2021_sasanka.Constants.dirNames;
+        List<String> names = com.example.albatrossconnect.data.Constants.dirNames;
+        List<String> dir_names = com.example.albatrossconnect.data.Constants.movieNames;
         myList = new ArrayList<>();
         dirList = new ArrayList<>();
         myList.addAll(names);
