@@ -33,7 +33,8 @@ class ProfessorReviewFragment : Fragment() {
 
     //TODO Fetch arguments to set this
     private fun setUpCourseTitle() {
-        binding.professorName.text = "John, Bell"
+        val name = arguments?.getString("professorName")
+        binding.professorName.text = name
     }
 
     private fun setUpRecyclerView() {

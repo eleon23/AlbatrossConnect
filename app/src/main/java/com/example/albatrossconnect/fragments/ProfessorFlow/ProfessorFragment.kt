@@ -174,7 +174,9 @@ class ProfessorAdapter(private val data: List<Professor>) :
            professorRating.rating = professor.rating.toFloat()
 
             professorDescription.setOnClickListener {
-                root.findNavController().navigate(R.id.action_professorFragment_to_professorDetailFragment)
+                val data = bundleOf()
+                data.putSerializable("professor", professor)
+                root.findNavController().navigate(R.id.action_professorFragment_to_professorDetailFragment, data)
             }
         }
     }
