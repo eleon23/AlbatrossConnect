@@ -9,6 +9,7 @@ import androidx.navigation.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
+import com.example.albatrossconnect.data.Course
 import com.example.albatrossconnect.data.Review
 import com.example.albatrossconnect.databinding.CourseReviewFragmentBinding
 import com.example.albatrossconnect.databinding.CourseReviewItemBinding
@@ -34,7 +35,8 @@ class CourseReviewFragment : Fragment() {
 
     //TODO Fetch arguments to set this
     private fun setUpCourseTitle() {
-        binding.courseTitle.text = "CS 141 | Intro to Computer Science"
+        val courseInfo = arguments?.getSerializable("course") as Course
+        binding.courseTitle.text = "${courseInfo.courseNumber} | ${courseInfo.courseName}"
     }
 
     private fun setUpRecyclerView() {

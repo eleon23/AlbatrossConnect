@@ -32,7 +32,7 @@ data class Course(
 data class Prerequisite(
     @JsonProperty("prerequisite")
     val prerequisite: String
-)
+): java.io.Serializable
 
 data class CourseReviews(
     val reviews: List<Review>

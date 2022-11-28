@@ -4,59 +4,59 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eeeeee"
-    >
+    android:background="#eeeeee">
 
     <ImageView
         android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
+        android:src="@drawable/albatross_white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:src="@drawable/albatross_white"
         app:tint="@color/blue" />
 
     <TextView
         android:id="@+id/course_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/blue"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="sans-serif-medium"
-        android:textAlignment="center"
         android:layout_margin="20dp"
-        android:typeface="sans"
+        android:fontFamily="sans-serif-medium"
+        android:text="CS 415"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:text="CS 415" />
+        android:textColor="@color/blue"
+        android:typeface="sans"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title" />
 
     <TextView
         android:id="@+id/course_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/course_number"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="sans-serif-medium"
-        android:textAlignment="center"
         android:layout_margin="20dp"
-        android:typeface="sans"
+        android:fontFamily="sans-serif-medium"
+        android:text="Computer Vision"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:text="Computer Vision" />
+        android:textColor="@color/black"
+        android:typeface="sans"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/course_number" />
 
     <Button
         android:id="@+id/student_reviews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        app:layout_constraintTop_toBottomOf="@id/course_name"
+        android:text="Student Reviews"
         app:layout_constraintEnd_toStartOf="@id/prerequisites"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="Student Reviews"
-        />
+        app:layout_constraintTop_toBottomOf="@id/course_name" />
 
     <Button
         android:id="@+id/prerequisites"
@@ -64,25 +64,24 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:text="Prerequisites"
-        app:layout_constraintTop_toBottomOf="@id/course_name"
-        app:layout_constraintStart_toEndOf="@id/student_reviews"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toEndOf="@id/student_reviews"
+        app:layout_constraintTop_toBottomOf="@id/course_name" />
 
     <TextView
         android:id="@+id/course_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/prerequisites"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:fontFamily="sans-serif-medium"
         android:layout_margin="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Course Description"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:typeface="sans"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:text="Course Description" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prerequisites" />
 
     <TextView
         android:id="@+id/description"
@@ -90,26 +89,25 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="sans-serif-light"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:typeface="sans"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/course_details"
-        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+        app:layout_constraintTop_toBottomOf="@id/course_details" />
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:background="@color/blue"
         app:itemBackground="@color/blue"
         app:itemIconTint="#fff"
         app:itemTextColor="#fff"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/nav_menu"/>
-
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/nav_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>

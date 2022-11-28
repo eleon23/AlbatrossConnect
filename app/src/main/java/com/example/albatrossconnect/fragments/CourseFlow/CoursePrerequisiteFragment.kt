@@ -10,12 +10,14 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Course
+import com.example.albatrossconnect.data.Prerequisite
 import com.example.albatrossconnect.databinding.CoursePrerequisiteFragmentBinding
 import com.example.albatrossconnect.databinding.PrerequisiteItemBinding
 
 class CoursePrerequisiteFragment : Fragment() {
 
     private lateinit var binding: CoursePrerequisiteFragmentBinding
+    private lateinit var prerequisites: List<Prerequisite>
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -28,15 +30,43 @@ class CoursePrerequisiteFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        getData()
         setUpRecyclerView()
         setUpBottomNavBar()
 
     }
 
+    private fun getData() {
+      //  prerequisites = arguments?.getSerializable("course") as List<Prerequisite>
+    }
+
+    private val mockUpData = listOf<Course>(
+        Course(
+            "CS111",
+            "3",
+            "Intro to Computer Science",
+            "This class is an introduction to computer science",
+            "schedule",
+            emptyList(),
+            "1234567",
+            "Dale Reed"
+        ),
+        Course(
+            "CS141",
+            "3",
+            "Intro to Computer Science Part 2",
+            "This class is an introduction to computer science Part 2",
+            "schedule",
+            emptyList(),
+            "7654321",
+            "Dale Reed"
+        ),
+    )
+
     private fun setUpRecyclerView() {
         binding.recyclerPrerequisites.apply {
             layoutManager = LinearLayoutManager(context)
-            val adapter = PrerequisiteAdapter(emptyList())
+            val adapter = PrerequisiteAdapter(mockUpData)
             setAdapter(adapter)
         }
     }
