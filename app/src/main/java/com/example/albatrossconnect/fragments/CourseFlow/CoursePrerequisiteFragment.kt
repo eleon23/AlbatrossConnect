@@ -33,29 +33,10 @@ class CoursePrerequisiteFragment : Fragment() {
 
     }
 
-    private fun setUpMockData() : List<Course> {
-        return listOf(
-            Course(
-                "Introduction to CS",
-                141,
-                "Dr. Dale Reed",
-                4,
-                123456
-            ),
-            Course(
-                "Basic Programming",
-                111,
-                "Dr. Dale Reed",
-                2,
-                546123
-            )
-        )
-    }
-
     private fun setUpRecyclerView() {
         binding.recyclerPrerequisites.apply {
             layoutManager = LinearLayoutManager(context)
-            val adapter = PrerequisiteAdapter(setUpMockData())
+            val adapter = PrerequisiteAdapter(emptyList())
             setAdapter(adapter)
         }
     }

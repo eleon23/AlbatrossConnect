@@ -10,8 +10,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.albatrossconnect.R
 import com.example.albatrossconnect.data.Course
+import com.example.albatrossconnect.data.CourseDetails
+import com.example.albatrossconnect.data.RawProfessors
 import com.example.albatrossconnect.databinding.CourseFragmentBinding
 import com.example.albatrossconnect.databinding.PrerequisiteItemBinding
+import com.fasterxml.jackson.databind.ObjectMapper
 
 /**
  * A simple [Fragment] subclass.
@@ -20,6 +23,7 @@ import com.example.albatrossconnect.databinding.PrerequisiteItemBinding
  */
 class CourseFragment : Fragment() {
     private lateinit var binding: CourseFragmentBinding
+    private lateinit var courses: CourseDetails
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -34,8 +38,15 @@ class CourseFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         setUpRecyclerView()
         setUpBottomNavBar()
+        setUpCoursesData()
     }
 
+    private fun setUpCoursesData() {
+        val mapper = ObjectMapper()
+        courses =
+            mapper.readValue(context?.assets?.open("courses.json"), CourseDetails::class.java)
+        println(courses)
+    }
 
     private fun setUpBottomNavBar() {
         binding.bottomNavigation.setOnItemSelectedListener {
@@ -51,22 +62,10 @@ class CourseFragment : Fragment() {
         }
     }
 
-    private fun setUpMockData() : List<Course> {
-        return listOf(
-            Course(
-                "Introduction to CS",
-                141,
-                "Dr. Dale Reed",
-                4,
-                123456
-            )
-        )
-    }
-
     private fun setUpRecyclerView() {
         binding.recyclerCourses.apply {
             layoutManager = LinearLayoutManager(context)
-            val adapter = CourseAdapter(setUpMockData())
+            val adapter = CourseAdapter(emptyList())
             setAdapter(adapter)
         }
     }

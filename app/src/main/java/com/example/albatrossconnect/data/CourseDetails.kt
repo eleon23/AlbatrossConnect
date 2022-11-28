@@ -5,20 +5,38 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize
 
 
 data class CourseDetails(
+    @JsonProperty("courses")
     val courses: List<Course>
 )
 
 data class Course(
+    @JsonProperty("number")
+    val courseNumber: String,
+    @JsonProperty("hours")
+    val hours: String,
+    @JsonProperty("meta")
     val courseName: String,
-    val courseNumber: Int,
-    val professor: String,
-    val rating: Int,
-    val CRN: Int
+    @JsonProperty("description")
+    val description: String,
+    @JsonProperty("schedule")
+    val schedule: String,
+    @JsonProperty("prerequisites")
+    val prerequisites: List<Prerequisite>,
+    @JsonProperty("CRN")
+    val CRN: String,
+    @JsonProperty("professor")
+    val professor: String
+
+): java.io.Serializable
+
+data class Prerequisite(
+    @JsonProperty("prerequisite")
+    val prerequisite: String
 )
 
 data class CourseReviews(
     val reviews: List<Review>
-)
+): java.io.Serializable
 
 data class Review(
     val rating: Int,
