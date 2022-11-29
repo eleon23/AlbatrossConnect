@@ -9,6 +9,6 @@ public class Constants {
             "Offline", "Offline", "Online", "Offline", "Online", "Offline", "Online",
             "Online", "Online", "Online", "Offline", "Offline", "Online", "Online");
     public static final List<String> dirNames = Arrays.asList(
-            "Parasuram", "Srikanth Addala", "Merlapaka Gandhi", "S. S. Rajamouli", "K. Vijaya Bhaskar", "Christopher Nolan", "Christopher Nolan",
-            "Ridley Scott", "S. S. Rajamouli", "Selvaraghavan", "S. S. Rajamouli", "S. S. Rajamouli", "Sukumar", "Sreenu Vaitla");
+            "Random1", "Random2", "Random3", "Random4", "Random5", "Random6", "Random7",
+            "Random8", "Random9", "Random10", "Random11", "Random12", "Random13", "Random14");
 }
