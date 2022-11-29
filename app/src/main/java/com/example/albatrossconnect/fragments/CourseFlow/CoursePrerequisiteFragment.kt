@@ -55,7 +55,8 @@ class CoursePrerequisiteFragment : Fragment() {
             "schedule",
             emptyList(),
             "1234567",
-            "Dale Reed"
+            "Dale Reed",
+            4.9F
         ),
         Course(
             "CS141",
@@ -65,7 +66,8 @@ class CoursePrerequisiteFragment : Fragment() {
             "schedule",
             emptyList(),
             "7654321",
-            "Dale Reed"
+            "Dale Reed",
+            4.9F
         ),
     )
 

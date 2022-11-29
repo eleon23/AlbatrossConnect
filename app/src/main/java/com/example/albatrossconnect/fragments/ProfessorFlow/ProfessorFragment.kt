@@ -176,7 +176,7 @@ class ProfessorAdapter(private val data: List<Professor>) :
             department.text = professor.department
             professorPhone.text = professor.phone
             professorEmail.text = professor.email
-           professorRating.rating = professor.rating.toFloat()
+            professorRating.rating = professor.rating.toFloat()
 
             professorDescription.setOnClickListener {
                 val data = bundleOf()

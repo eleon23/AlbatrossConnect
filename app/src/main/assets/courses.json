@@ -12,7 +12,8 @@
                 }
             ],
             "CRN": "17412",
-            "professor": "Reckinger, Scott"
+            "professor": "Reckinger, Scott",
+            "rating": 4.2
         },
         {
             "number": "CS109",
@@ -26,7 +27,8 @@
                 }
             ],
             "CRN": "44904",
-            "professor": "Mark Grechanik"
+            "professor": "Mark Grechanik",
+            "rating": 3.2
         },
         {
             "number": "CS111",
@@ -36,7 +38,8 @@
             "schedule": "To be properly registered, students must enroll in one Laboratory and one Lecture-Discussion.",
             "prerequisites": [],
             "CRN": "34013",
-            "professor":"Reckinger, Shanon"
+            "professor":"Reckinger, Shanon",
+            "rating": 4.2
         },
         {
             "number": "CS141",
@@ -56,7 +59,8 @@
                 }
             ],
             "CRN": "34447",
-            "professor": "David Hayes"
+            "professor": "David Hayes",
+            "rating": 4.9
         }
     ]
 }

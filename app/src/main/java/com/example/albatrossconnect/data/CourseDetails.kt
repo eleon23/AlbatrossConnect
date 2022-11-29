@@ -25,7 +25,9 @@ data class Course(
     @JsonProperty("CRN")
     val CRN: String,
     @JsonProperty("professor")
-    val professor: String
+    val professor: String,
+    @JsonProperty("rating")
+    val rating: Float
 
 ): java.io.Serializable
 
